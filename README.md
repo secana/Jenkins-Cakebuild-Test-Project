@@ -1,5 +1,5 @@
 # Jenkins-Cakebuild-Test-Project
-.Net Cake project to test the Jenkins Cakebuild plugin
+.Net Cake project to test the Jenkins Cakebuild plugin. It contains an full .Net Core project with unit tests and a Cake script with different build targets.
 
 ## Build Jenkins Container
 You find a Dockerfile in the folder *Jenkins*. This container just takes the current Jenkins image and adds dotnet core to it to make testing of the plugin with Cake easier.
